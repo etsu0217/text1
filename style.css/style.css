@@ -121,14 +121,32 @@ footer {
   margin-bottom: 10px;
 }
 @media screen and (max-width: 600px) {
-  .header img {
+   .header {
+    padding: 10px 0px;
+  }
+  .logo img {
+    padding-left: 10px;
+  }
+  .header ul li a {
+    padding-right: 15px;
+  }
+  .main_visual img {
     height: calc(100vh - 60px);
   }
   .content {
     flex-direction: column;
   }
   .content img {
-    margin-right: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .content p {
+    width: 320px;
+    text-align: left;
+  }
+  .text h3 {
+    margin-top: 15px;
+    padding-left: 0;
   }
   .bicycle ul {
     flex-direction: column;
