@@ -120,3 +120,21 @@ footer {
   color: #827c7c;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 600px) {
+  .header img {
+    height: calc(100vh - 60px);
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content img {
+    margin-right: 0;
+  }
+  .bicycle ul {
+    flex-direction: column;
+  }
+  .bicycle li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
